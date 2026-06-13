@@ -1,0 +1,6 @@
+{
+  "name": "Retro Snake",
+  "description": "An elegant, polished retro-themed Snake game featuring responsive directional controls, multiple game styles, and locally persisted high-score tracking.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
