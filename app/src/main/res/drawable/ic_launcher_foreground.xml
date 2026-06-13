@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    
+    <!-- Neon Apple Shadow/Glow -->
+    <path
+        android:fillColor="#33FF0055"
+        android:pathData="M54,62 M54,42 C65,42 74,51 74,62 C74,73 65,82 54,82 C43,82 34,73 34,62 C34,51 43,42 54,42 Z" />
+
+    <!-- Neon Glowing Red/Cyan Apple Body -->
+    <path
+        android:fillColor="#FFFF007F"
+        android:pathData="M54,46 C61,46 68,52 68,60 C68,68 62,74 54,74 C46,74 40,68 40,60 C40,52 47,46 54,46 Z" />
+    
+    <!-- Apple Stem and Leaf -->
+    <path
+        android:strokeColor="#FF00F0FF"
+        android:strokeWidth="3.5"
+        android:strokeLineCap="round"
+        android:pathData="M54,46 C54,40 60,36 64,34" />
+    
+    <path
+        android:fillColor="#FF00F0FF"
+        android:pathData="M60,34 C64,34 68,30 66,26 C62,26 58,30 60,34 Z" />
+
+    <!-- Retro Pixelated Snake Segments chasing the apple -->
+    <!-- Segment 1: Tail -->
+    <path
+        android:fillColor="#C400FF00"
+        android:pathData="M22,76 h10 v10 h-10 z" />
+    <!-- Segment 2 -->
+    <path
+        android:fillColor="#E100FF00"
+        android:pathData="M34,76 h10 v10 h-10 z" />
+    <!-- Segment 3: Head -->
+    <path
+        android:fillColor="#FF00FF00"
+        android:pathData="M34,64 h10 v10 h-10 z" />
+        
+    <!-- Snake Eye -->
+    <path
+        android:fillColor="#0D021A"
+        android:pathData="M37,67 h3 v3 h-3 z" />
+</vector>
